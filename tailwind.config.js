@@ -1,10 +1,11 @@
+// tailwind.config.js
 module.exports = {
-  purge: [],
-  darkMode: false,
+  content: [
+    './index.php',
+    './Classes/**/*.php',
+    './input.css',
+  ],
   theme: {
-    extend: {},
-  },
-  variants: {
     extend: {},
   },
   plugins: [],

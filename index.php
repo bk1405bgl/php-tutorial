@@ -1,5 +1,7 @@
 <?php
-    require_once "Classes/Mensch.php";
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+require_once "Classes/Mensch.php";
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -11,12 +13,10 @@
 </head>
 <body>
     <div class="bg-black text-white">
-        <?= "Hello";
-
-        $bilal = new Mensch();
-        $bilal->setVorname("Bilal");
-        $bilal->setNachname("Kuzey");
-        $bilal->setGeburtsdatum('1984-11-21');
+        <?php echo "Hello<br><br>"; ?>
+    </div>
+    <div class="text-green-800">
+        <?php $bilal = new Mensch("Bilal", "Kuzey", "1984-11-21");
         var_dump($bilal);
         ?>
     </div>

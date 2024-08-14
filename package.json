@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
+  },
+  "name": "php-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bk1405bgl/php-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bk1405bgl/php-tutorial/issues"
+  },
+  "homepage": "https://github.com/bk1405bgl/php-tutorial#readme",
+  "description": ""
+}
