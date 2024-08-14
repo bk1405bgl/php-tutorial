@@ -1,3 +1,6 @@
+<?php
+    require_once "Classes/Mensch.php";
+?>
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -8,7 +11,14 @@
 </head>
 <body>
     <div class="bg-black text-white">
-        <?= "Hello"; ?>
+        <?= "Hello";
+
+        $bilal = new Mensch();
+        $bilal->setVorname("Bilal");
+        $bilal->setNachname("Kuzey");
+        $bilal->setGeburtsdatum('1984-11-21');
+        var_dump($bilal);
+        ?>
     </div>
 </body>
 </html>
